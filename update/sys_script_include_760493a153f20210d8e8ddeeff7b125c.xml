@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_58872_needit.sumTwoNums</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Two integers are added together and their sum is logged.</description>
+        <name>sumTwoNums</name>
+        <script><![CDATA[// var sumTwoNums = Class.create();
+// sumTwoNums.prototype = {
+//     initialize: function() {
+//     },
+
+//     type: 'sumTwoNums'
+// };
+
+function sumTwoNums(num1, num2) {
+	var mySum=num1+num2;
+	gs.addInfoMessage("The sum of " + intl + " + " + int2 + " = " + mySum);
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-15 06:54:52</sys_created_on>
+        <sys_id>760493a153f20210d8e8ddeeff7b125c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sumTwoNums</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_760493a153f20210d8e8ddeeff7b125c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-15 06:54:52</sys_updated_on>
+    </sys_script_include>
+</record_update>
